@@ -1,0 +1,42 @@
+html {
+    font: 16px/1.5 'Helvetica', sans-serif;
+    margin: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+blockquote {
+	font-style: italic; 
+    border-left: solid 4px rgb(221,221,221);
+    margin-left:15px;
+}
+
+blockquote p {
+    margin-left:15px;
+}
+
+blockquote > p:nth-child(3) {
+    text-align: right;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    table-layout: fixed;
+}
+
+th {
+    background-color: lightgray;
+}
+
+td {
+    padding-left: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(237, 237, 237);
+}
+
