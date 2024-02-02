@@ -33,6 +33,7 @@ aside {
 }
 
 aside section {
+    width: 100%;
     padding: 1em 0em 1em 3em;
     display: inline-block;
     text-align: left;
@@ -64,11 +65,22 @@ header nav ul li:nth-child(1) {
     margin-left: 270px;
 }
 
+article > header {
+    margin: 1em 0;
+    border-bottom: none;
+}
+
 div {
     width: 250px;
 }
 
 h2 {
+    padding-bottom: 1em;
+}
+
+h3 {
+    font-size: 1.3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding-bottom: 1em;
 }
 
@@ -84,17 +96,15 @@ h2 {
 
 .img1 {
     float: right;
-    padding-left: 1em;
+    padding: 0.5em;
+    border: 3px solid black;
 }
 
 .img2 {
     float: left;
-    padding-right: 1em;
-}
-
-article > header {
-    margin: 1em 0;
-    border-bottom: none;
+    padding: 0.5em;
+    border: 3px solid black;
+    margin-right: 1em;
 }
 
 .ul li a{
@@ -106,8 +116,18 @@ article > header {
     list-style-position: inside;
 }
 
-h3 {
-    font-size: 1.3em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-bottom: 1em;
+section blockquote {
+    color: grey;
+    font-size: 14px;
+    width: 50%;
+    float: right;
+    font-style: italic;
+    opacity: 80%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-left: 2px solid grey;
+    padding-left: 1em; 
+}
+
+section blockquote p:nth-child(2) {
+    float: right;
 }
