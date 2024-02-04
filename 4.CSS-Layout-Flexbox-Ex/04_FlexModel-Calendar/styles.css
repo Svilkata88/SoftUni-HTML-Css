@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em;
+}
+
+div {
+    display: flex;
+    max-width: 65vw;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+span {
+    display: block;
+    border: 1px solid black;
+    padding: 2sem;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#head {
+    flex-basis: 100%;
+}
+
+.notes {
+    flex-direction: column;
+}
