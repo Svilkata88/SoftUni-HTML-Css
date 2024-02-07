@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header {
+    border-bottom: 3px solid grey;
+}
+
+header p {
+    font-size: 2.8em;
+    line-height: 1;
+    padding: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding-bottom: 1.5em;
+}
+
+h2 {
+    padding-top: 1.5em;
+}
+
+main {
+    margin: 0 2em;
+}
+
+main p {
+    padding-bottom: 1.5em;
+}
+
+footer {
+    margin-top: auto;
+    background-color: rgb(102, 102, 102);
+}
+
+footer p {
+    color: #fff;
+    padding: 0.5em;
+}
