@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    gap: 1em;
+}
+
+header, main aside, main div, footer {
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 2em;
+}
+
+header {
+    flex: 1 0 100%;
+    display: flex;
+    justify-content: start;
+    gap: 3em;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1em; 
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    gap: 1em;
+}
+
+main aside {
+    color: purple;
+}
+
+main aside p {
+    padding-bottom: 0.3em;
+}
+
+main div {
+    padding: 2em;
+    flex: 1 0 auto;
+}
+
+main div h2 {
+    padding-bottom: 0.5em;
+}
+
+footer {
+    flex: 1 0 100%;
+}
+
+.ul {
+    list-style-position: inside;
+    text-indent: 1em;
+}
+
+
+/* making body responsive */
+@media (max-width: 550px) {
+    main {
+        flex-direction: column;
+    }
+
+    header {
+        flex-direction: column; 
+    }
+
+    ul {
+        flex-direction: column; 
+    }
+}
