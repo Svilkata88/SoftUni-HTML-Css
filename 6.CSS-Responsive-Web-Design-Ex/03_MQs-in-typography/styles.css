@@ -1,0 +1,131 @@
+@import url('typography.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 3em;
+}
+
+img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+main, aside {
+    display: inline-block;
+}
+
+main {
+    width: 74%;
+}
+
+aside {
+    width: 25%;
+    vertical-align: top;
+    margin-left: 0.2em;
+}
+
+aside section {
+    width: 100%;
+    padding: 1em 0em 1em 3em;
+    display: inline-block;
+    text-align: left;
+}
+
+aside nav li {
+    position: relative;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+header {
+    border-bottom: 3px solid black;
+}
+
+header p, nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 2.5em;
+}
+
+header nav ul li:nth-child(1) {
+    margin-left: 270px;
+}
+
+article > header {
+    margin: 1em 0;
+    border-bottom: none;
+}
+
+div {
+    width: 250px;
+}
+
+h2 {
+    padding-bottom: 1em;
+}
+
+h3 {
+    font-size: 1.3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 1em;
+}
+
+.nav-title {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.nav-nav {
+    color: green;
+}
+
+.img1 {
+    float: right;
+    padding: 0.5em;
+    border: 3px solid black;
+}
+
+.img2 {
+    float: left;
+    padding: 0.5em;
+    border: 3px solid black;
+    margin-right: 1em;
+}
+
+.ul li a{
+    color: green;
+    text-decoration: none;
+}
+
+.ul li{
+    list-style-position: inside;
+}
+
+section blockquote {
+    color: grey;
+    font-size: 14px;
+    width: 50%;
+    float: right;
+    font-style: italic;
+    opacity: 80%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-left: 2px solid grey;
+    padding-left: 1em; 
+}
+
+section blockquote p:nth-child(2) {
+    float: right;
+}
