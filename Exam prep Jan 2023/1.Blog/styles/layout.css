@@ -1,0 +1,49 @@
+body {
+    height: 339px;
+    width: 696px;
+    display: flex;
+    padding: 24px 32px;
+}
+
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    flex: 1 0 auto;
+    max-width: 468px;
+    padding: 0;
+
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1 0 10px 10px black;
+}
+
+figure img {
+    height: 0;
+    flex-grow: 1;
+    object-fit: cover;
+}
+
+figure figcaption {
+    flex: 0 0 auto;
+}
+
+.description {
+    padding-left: 16px;
+    flex: 0 1 auto;
+}
+
+.svg svg {
+    float: left;
+}
+
+.svg p {
+    display: block;
+    padding-bottom: 10px;
+}
+
+
+
