@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 28px 10px;
+
+}
+
+header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 1.75em;
+}
+
+header .site-logo {
+    margin: 0 16.125em;
+}
+
+header .site-nav ul {
+    list-style: none outside;
+    display: flex;
+    margin: 0 16.125em;
+    gap: 3.25em;
+}
+
+.section-container-website {
+    display: flex;
+    margin: 8.375em 24.5em;
+    gap: 5.75em;
+}
+
+.section-container-website article {
+    display: flex;
+    flex-direction: column;
+    max-width: 43.5em;
+    gap: 2.375em;
+}
+
+.section-container-team {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20em 6.875em;
+}
+
+.section-container-team h1 {
+    letter-spacing: 3px;
+    text-align: center;
+    padding-bottom: 40px;   
+}
+
+.section-container-team > p {
+    width: 120px;
+    align-self: center;
+    border-bottom: 4px solid black;
+    margin-bottom: 52px;
+}
+
+.team-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 106px;
+}
+
+.team-card {
+    display: flex;
+    justify-content: center;
+    width: 20.875em;
+    text-align: center;
+}
+
+.section-container-newsletter {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 0 72px;
+}
+
+.section-container-newsletter h1 {
+    text-align: center;
+    color: white;  
+    padding-bottom: 30px;
+}
+
+.section-container-newsletter > p {
+    width: 120px;
+    align-self: center;
+    border-bottom: 4px solid black;
+    margin-bottom: 52px;
+}
+
+.section-container-testimonials {
+    padding: 66px 306px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 124px;
+}
+
+.testimonials-card {
+    width: 370px;
+    text-align: center;
+}
