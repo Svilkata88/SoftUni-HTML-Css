@@ -1,0 +1,159 @@
+.section-customer-testimonial {
+    background-color: #F8F0E9;
+    padding: 16px 135px;
+}
+
+.section-customer-testimonial p {
+    font-size: 12px;
+    margin-bottom: 1.5em;
+    text-align: start;
+    opacity: 0.8;
+    color: rgb(76, 70, 70);
+}
+
+.section-customer-testimonial h2 {
+    font-style: italic;
+    font-size: 1.7em;
+    line-height: 0.9;
+    font-family: "Cormorant", serif;
+    padding-bottom: 1.5em;
+    opacity: 0.8;
+    text-align: start;
+}
+
+.section-customer-testimonial h2, p, a {
+    color: black;
+}
+
+.section-support {
+    background-color: #E14747;
+    padding: 25px 150px;
+    text-align: center;
+}
+
+.section-support h5 {
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+    font-size: 1.1em;
+}
+
+.section-support p {
+    margin-bottom: 1em;
+    padding: 0 5em;
+    font-size: 14px;
+}
+
+.section-support h5, 
+.section-support p {
+    font-family: "Karla", sans-serif;
+    color: #fff;
+}
+
+.section-your-mind {
+    background-color: #F8F0E9;
+    padding: 2em 0 ;
+}
+
+.section-your-mind div {
+    width: 250px;
+    margin: 17px auto 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    text-align: center;
+}
+
+.section-your-mind div h2 {
+    opacity: 0.8;
+    margin: 0 10px;
+    font-size: 1.8em;
+}
+
+.section-your-mind div a {
+    color: black;
+    align-self: flex-start;
+}
+
+.section-your-mind div p {
+    margin-bottom: 0;
+    font-size: 9px;
+    text-align: start;
+    opacity: 0.7;
+    font-family: "Karla", sans-serif;
+}
+
+.section-your-mind a, .section-your-mind div a {
+    padding: 0.5em;
+    font-size: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.section-your-mind > a {
+    position: relative;
+    left: 44%;
+    color: black;
+}
+
+/*------------------ section-local-guide -------------------*/
+
+.section-local-guide {
+    background-color: #E14747;
+    padding-bottom: 2em;
+}
+
+.section-local-guide h2 {
+    max-width: fit-content;
+    font-size: 1.7em;
+    color: #fff;
+    margin: 0 auto;
+    padding: 1.5em 0;
+}
+
+.section-local-guide p {
+    color: #fff;
+    font-size: 10px;
+    margin: 0 130px;
+    padding-bottom: 1.5em;
+}
+
+.section-local-guide a {
+    display: block;
+    padding: 0.5em;
+    font-size: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-radius: 15px;
+    background-color: #FAD97A;
+    width: fit-content;
+    margin: 1em auto 0;
+}
+
+footer {
+    background-color: #352B2A;
+    padding: 1em 2em;
+}
+
+footer > p {
+    color: #fff;
+    max-width: 25em;
+    margin: 0;
+}
+
+footer > span {
+    color: grey;
+    opacity: 0.8;
+}
+
+footer > p,
+footer > span {
+    display: block;
+    text-align: start;
+    font-size: 10px;
+    padding-bottom: 0.5em;
+}
+
+footer .logo {
+    padding-bottom: 1em;
+}
